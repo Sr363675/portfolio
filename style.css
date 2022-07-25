@@ -44,12 +44,14 @@ a {
 }
 
 .links {
-    transition: 0.1s ease-in;
+    transition: 0.3s ease-in;
+
 }
 
 .links:hover {
     color: var(--hover-color);
     word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
 }
 
 li {
@@ -149,3 +151,20 @@ li {
     height: 12rem;
     border-radius: 50%;
 }
+.btn{
+   
+    margin-top: 1rem;
+    padding: .8rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border-color: #fff;
+    font-size: 1rem;
+    border-radius: 20rem;
+    }
+
+ .btn:hover{
+    letter-spacing: 0.1rem;
+    background-color: var(--hover-color);
+ }   
+
