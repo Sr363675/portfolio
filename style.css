@@ -22,7 +22,7 @@
     --hover-color: #0d69b9;
     --heading-color: #282828;
     --text-color: #353535f3;
-    --border-color: rgba(34, 33, 33, 0.133);
+    --border-color: rgba(33, 31, 31, 0.133);
 }
 
 body {
@@ -134,21 +134,24 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .hero-wrapper{
     text-align: center;
     width: 500px;
     margin: 0 auto;
     padding: 2rem;
+
 }
 
 .user-bio{
     margin-top: 1rem ;
+    font-weight: bold;
 }
  
 .user-image{
     width: 15rem;
-    height: 12rem;
+    height: 14rem;
     border-radius: 50%;
 }
 .btn{
@@ -161,10 +164,34 @@ li {
     border-color: #fff;
     font-size: 1rem;
     border-radius: 20rem;
+    
     }
 
  .btn:hover{
     letter-spacing: 0.1rem;
     background-color: var(--hover-color);
  }   
+/*About section*/
 
+.about{
+    padding: 2rem 0;
+}
+.hero-section{
+    background-color: var(--bg-body);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+.designation{
+    margin-top: -1rem;
+}
+.fed{
+    color: var(--primary-color);
+}
